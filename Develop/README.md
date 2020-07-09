@@ -1,18 +1,26 @@
 # Travel Buddy
 ## Description  
-A travel assistant on your browser
+Good shit
 ## Table of Contents
-dogs cats birds
+* [Description] (#Description)
+* [Installation] (#Installation)
+* [Usage] (#Usage)
+* [Contributing] (#Contributing)
+* [Testing] (#Testing)
+* [License] (#License)
+* [Questions] (#Questions)
+
 ## Installation
-look it up
+Just download
 ## Usage
-use it dont abuse it
+do it
 ## Contribution
-just call me up
+do it good
 ## Testing
-i did the testing so take care
+I already tested so your good
 ### License
-LGPL
+MIT
 ### Questions
-courtney.jones@ctx.edu
+(#github.com/crjones7)
+courtney@gmail.com
 

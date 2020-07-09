@@ -4,7 +4,14 @@ function generateMarkdown(data) {
 ## Description  
 ${data.Description}
 ## Table of Contents
-${data.TableofContents}
+* [Description] (#Description)
+* [Installation] (#Installation)
+* [Usage] (#Usage)
+* [Contributing] (#Contributing)
+* [Testing] (#Testing)
+* [License] (#License)
+* [Questions] (#Questions)
+
 ## Installation
 ${data.Installation}
 ## Usage
@@ -16,7 +23,8 @@ ${data.Test}
 ### License
 ${data.License}
 ### Questions
-${data.Questions}
+(#github.com/${data.github})
+(#${data.Questions})
 
 `;
 }

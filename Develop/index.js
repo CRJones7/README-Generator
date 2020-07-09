@@ -1,6 +1,6 @@
-var inquirer = require('inquirer');
-var fs = require('fs');
-var generator = require('./utils/generateMarkdown');
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generator = require('./utils/generateMarkdown');
 const fileName = 'README.md';
 // array of questions for user
 const questions = [
@@ -13,11 +13,6 @@ const questions = [
         type: "input",
         name: "Description",
         message: "Please describe your application."
-      },
-      {
-        type: "input",
-        name: "TableofContents",
-        message: "Please provide a table of contents for your README."
       },
       {
         type: "input",
@@ -51,7 +46,7 @@ const questions = [
       },
       {
         type: "input",
-        name: "Questions",
+        name: "github",
         message: "Please enter your GitHub username."
       },
       {
