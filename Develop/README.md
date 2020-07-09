@@ -1,6 +1,7 @@
 # Travel Buddy
 ## Description  
-Good shit
+stuff
+
 ## Table of Contents
 * [Description] (#Description)
 * [Installation] (#Installation)
