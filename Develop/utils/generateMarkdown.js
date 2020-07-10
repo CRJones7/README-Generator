@@ -1,16 +1,16 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}  ${generateBadges}
+  return `# ${data.title}  ${generateBadges(data.License)}
 ## Description  
 ${data.Description}
 ## Table of Contents
-* [Description] (#Description)
-* [Installation] (#Installation)
-* [Usage] (#Usage)
-* [Contributing] (#Contributing)
-* [Testing] (#Testing)
-* [License] (#License)
-* [Questions] (#Questions)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Testing](#Testing)
+* [License](#License)
+* [Questions](#Questions)
 
 ## Installation
 ${data.Installation}
@@ -24,12 +24,12 @@ ${data.Test}
 ${data.License}
 ### Questions
 [Github Profile](#https://github.com/${data.github})
-(#${data.Questions})
+
 
 `;
 }
 
-function generateBadges(){
-  return `![License](https://img.shields.io/badge/-${data.License}-yellowgreen)`
+function generateBadges(License){
+  return `![License](https://img.shields.io/badge/license-${License}-green)`;
 }
 module.exports = generateMarkdown;

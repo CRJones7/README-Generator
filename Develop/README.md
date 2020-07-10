@@ -1,28 +1,26 @@
-# ReadMe Generator  function generateBadges(){
-  return `![License](https://img.shields.io/badge/-${data.License}-yellowgreen)`
-}
+# README generator  ![License](https://img.shields.io/badge/license-MIT-green)
 ## Description  
-My application can be used for generating README.md files through the terminal.
+This is a readme.md generator application.
 ## Table of Contents
-* [Description] (#Description)
-* [Installation] (#Installation)
-* [Usage] (#Usage)
-* [Contributing] (#Contributing)
-* [Testing] (#Testing)
-* [License] (#License)
-* [Questions] (#Questions)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Testing](#Testing)
+* [License](#License)
+* [Questions](#Questions)
 
 ## Installation
-Download repo and initalize modules then open the terminal at the root of the repo and type in node index.js.
+Clone repo install packages and enter the root of your repo terminal.
 ## Usage
-After setup enter all questions.
+Once settup enter the terminal at the root of your repo and enter node index.js.
 ## Contribution
-Contribute by contacting me and I will add you to the repo.
+You can contribute to this application by contacting me and getting settup in the repo.
 ## Testing
-Type in node index.js and attempt to run application.
+To test please run through a readme file creation to ensure functionality.
 ### License
 MIT
 ### Questions
 [Github Profile](#https://github.com/crjones7)
-(#courtneyrjones@gmail.com)
+
 
